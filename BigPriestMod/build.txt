@@ -1,0 +1,7 @@
+author = LaundrySauce
+version = 0.1
+displayName = BigPriestMod
+hideCode = false
+hideResources = false
+includeSource = true
+buildIgnore = *.csproj, *.user, obj\*, bin\*, .vs\*
