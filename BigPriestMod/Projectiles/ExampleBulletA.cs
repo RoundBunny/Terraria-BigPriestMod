@@ -12,7 +12,7 @@ namespace BigPriestMod.Projectiles //We need this to basically indicate the fold
         public override void SetDefaults()
         {
             projectile.width = 120; //Set the hitbox width
-            projectile.height = 60; //Set the hitbox height
+            projectile.height = 240; //Set the hitbox height
             projectile.timeLeft = 120; //The amount of time the projectile is alive for
             projectile.penetrate = 100; //Tells the game how many enemies it can hit before being destroyed
             projectile.friendly = true; //Tells the game whether it is friendly to players/friendly npcs or not

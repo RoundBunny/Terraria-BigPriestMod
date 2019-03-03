@@ -35,7 +35,7 @@ namespace BigPriestMod.Items
         {
             ModRecipe recipe = new ModRecipe(mod);
             recipe.AddIngredient(ItemID.Wood, 10); //crafted with 10 wood
-            recipe.AddIngredient(75); //crafted with Item 75, Fallen Star
+            recipe.AddIngredient(3570); //crafted with Lunar Flare
             recipe.AddTile(18); //crafted at Tile 18, Workbench
             recipe.SetResult(this);
             recipe.AddRecipe();

@@ -37,8 +37,7 @@ namespace BigPriestMod.Items
         public override void AddRecipes()
 		{
 			ModRecipe recipe = new ModRecipe(mod);
-			recipe.AddIngredient(ItemID.DirtBlock);
-			recipe.AddTile(TileID.WorkBenches);
+			recipe.AddIngredient(3460,10);
 			recipe.SetResult(this);
 			recipe.AddRecipe();
 		}
